@@ -11,9 +11,9 @@ function calculateNumber(type, a, b) {
 	break;
     case 'DIVIDE':
       if (NumB === 0) {
-            NUmC = "Error";
+            NumC = "Error";
       } else {
-            NUmC = NumA / NumB;
+            NumC = NumA / NumB;
       }
       break;
     }
